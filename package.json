@@ -1,0 +1,47 @@
+{
+  "name": "shoppingcart",
+  "version": "1.0.0",
+  "description": "Checkout flow for a shopping cart",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack -d --watch",
+    "start": "nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bstanger/shoppingcart.git"
+  },
+  "keywords": [
+    "ux",
+    "react",
+    "express",
+    "mongo",
+    "shopping",
+    "cart",
+    "forms"
+  ],
+  "author": "Becca Stanger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bstanger/shoppingcart/issues"
+  },
+  "homepage": "https://github.com/bstanger/shoppingcart#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "nodemon": "^1.17.3",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "path": "^0.12.7",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1"
+  }
+}

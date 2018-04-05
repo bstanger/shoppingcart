@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  height: 50px;
+  padding: 0 16px;
+}
+
+.logo {
+  display: block;
+  line-height: 50px;
+  color: #fff;
+  font-size: 30px;
+}
+
+.checkout {
+  display: block;
+  line-height: 50px;
+  background: black;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+}
