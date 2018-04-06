@@ -1,0 +1,21 @@
+form {
+  background: #fff;
+  border: 1px solid #dgdgdg;
+  padding: 20px;
+  margin: 14px;
+}
+
+input {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  margin: 10px 12px;
+  min-width: 300px;
+  padding: 0 12px;
+}
+
+.formButton {
+  display: inline-block;
+  float: right;
+  margin: 10px 12px;
+}

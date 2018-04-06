@@ -1,10 +1,13 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import Forms from '../../dist/styles/forms.css'
+import Page from '../../dist/styles/page.css'
 
 const Confirmation = ({goToNext}) => (
-  <form>
-    <button onClick={(e) => goToNext(e)}>Complete</button>
-  </form>
+  <section className={Page.section}>
+    <form>
+      <button className={Forms.formButton} onClick={(e) => goToNext(e)}>Purchase</button>
+    </form>
+  </section>
 )
 
 
